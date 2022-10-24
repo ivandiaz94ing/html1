@@ -1,0 +1,16 @@
+h2 {
+  color: rgb(205, 92, 92);  
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+}
