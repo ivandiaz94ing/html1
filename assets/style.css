@@ -18,3 +18,16 @@ img{
 a{
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
+
+summary{  
+  display: flex;
+  font-size: 2rem;
+  
+}
+summary + * {  
+  border: thin solid;
+  
+}
