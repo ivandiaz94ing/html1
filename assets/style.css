@@ -10,11 +10,28 @@ body{
     font-family: sans-serif;
 }
 
-img{
+img, video{
   max-width: 100%;
   height: auto;
 }
 
 a{
   text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+summary{  
+  display: flex;
+  font-size: 2rem;
+  
+}
+summary + * {  
+  border: thin solid;
+  
+}
+
+h4{
+  color: rgb(50, 83, 37);
 }
