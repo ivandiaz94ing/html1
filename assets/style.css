@@ -10,7 +10,7 @@ body{
     font-family: sans-serif;
 }
 
-img{
+img, video{
   max-width: 100%;
   height: auto;
 }
@@ -30,4 +30,8 @@ summary{
 summary + * {  
   border: thin solid;
   
+}
+
+h4{
+  color: rgb(50, 83, 37);
 }

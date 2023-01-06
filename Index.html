@@ -35,6 +35,9 @@
         <li><a href="Index.html#enlaces-internos">Enlaces Internos</a></li>
         <li><a href="Index.html#enlaces-especiales">Enlaces y Protocolos Especiales</a></li>
         <li><a href="Index.html#elementos-interactivos">Elementos Interactivos en HTML</a></li>
+        <li><a href="Index.html#audio-video">Audio y Video</a></li>
+        <li><a href="Index.html#iframe">IFrame</a></li>
+        <li><a href="Index.html#formularios">Elementos del Formulario</a></li>
     </ul>
     <h2 id="h2-main">Encabezados HTML</h2>
     <h1>Encabezado nivel 1</h1>
@@ -404,7 +407,81 @@
             </nav>
 
         </details>
+        <br>
+        <details open>
+            <summary>Titulo del Acordeón</summary>
+            <nav>
+                <h5>Subtitulo Uno</h5>
+                <h5>Subtitulo Dos</h5>
+                <h5>Subtitulo Tres</h5>
+            </nav>
+
+        </details>
+        <br>
+        <dialog open>
+            Esto es una ventana modal en HTML
+        </dialog>
+        <br><br><br>
+        <p>La etiqueta dialog aún no es oficial por lo que quizas no es soportado en todos los navegadores</p>
         <a href="Index.html#temario">Clic para ir al temario🔼</a>
+
+        <hr>
+        <h2 id="audio-video">Audio y Video</h2>
+        <h4>Mp3</h4>
+        <audio src="media/Don Omar - AGRADECIDO (Official Lyric Video).mp3" controls loop></audio>
+
+        <br>
+        <video src="media/Cheo Gallego Akapellah - Me Dediqué a Olvidarte (Video Oficial).mp4" controls poster="media/miniatura.png"></video>
+        <a href="Index.html#temario">Clic para ir al temario🔼</a>
+
+        <hr>
+        <h2 id="iframe">IFrames</h2>.
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-oK6zL01fNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br>
+        <a href="Index.html#temario">Clic para ir al temario🔼</a>
+
+        <hr>
+        <h2 id="formularios">Formularios</h2>
+
+        <h3>Elementos de Formularios</h3>
+        <input type="text"><br>
+        <input type="checkbox"><br>
+        <input type="radio"><br>
+        <input type="date"><br>
+        <input type="color"><br>
+        <input type="button" value="Boton"><br>
+        <input type="submit"><br>
+        <input type="reset"><br>
+        <input type="file"><br>
+        <input type="file" multiple><br>
+        <input type="email"><br>
+        <input type="number"><br>
+        <input type="tel"><br>
+        <input type="hidden"><br>
+        <input type="password"><br>
+        <input type="search"><br>
+        <textarea cols="30" rows="5"></textarea><br>
+        <select >
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JAVASCRIPT</option>
+            <option value="">PHP</option>
+            <option value="">PYTHON</option>
+        </select>
+        <br><br>
+
+        <h3>Ejemplo de formulario</h3>
+        <br>
+        <h4>Formulario Login</h4>
+        <form action="https://jonmircha.com/" method="post" autocomplete="off">
+            <input type="text" name="usuario" placeholder="Ingresar usuario"><br>
+            <input type="password" name="password" id="password" placeholder="contraseña"><br>
+            <input type="submit">
+        </form>
+        <br><br><br>
+        <p>Voy por: 05:46:24 en la seccion de atributos de input y formularios</p>
+        <a href="Index.html#temario">Clic para ir al temario🔼</a>
+
 
         <hr>
         <h2>Git y Github</h2>
