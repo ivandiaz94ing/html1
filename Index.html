@@ -474,12 +474,22 @@
         <br>
         <h4>Formulario Login</h4>
         <form action="https://jonmircha.com/" method="post" autocomplete="off">
-            <input type="text" name="usuario" placeholder="Ingresar usuario"><br>
-            <input type="password" name="password" id="password" placeholder="contraseña"><br>
+            
+            <label for="usuario">User</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Ingresar usuario" required 
+             pattern="^[A-Za-z]+$" title="Solo se aceptan letras"><br>
+
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email" autocomplete="on" placeholder="Correo electronico"><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="contraseña" required><br>
             <input type="submit">
+            <input type="reset">
         </form>
-        <br><br><br>
-        <p>Voy por: 05:46:24 en la seccion de atributos de input y formularios</p>
+        <br><br>
+        <h4>Select Radios Checkbox</h4>
+        <p>Voy por: 06:02:10 </p>
         <a href="Index.html#temario">Clic para ir al temario🔼</a>
 
 
