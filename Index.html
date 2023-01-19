@@ -489,7 +489,82 @@
         </form>
         <br><br>
         <h4>Select Radios Checkbox</h4>
-        <p>Voy por: 06:02:10 </p>
+        <form >
+            <p> Elige tu idioma</p>
+            <select name="idioma" id="idioma">
+                <option value="">Seleccionar una opción</option>
+                <option value="es" selected>Español</option>
+                <option value="en">Ingles</option>
+                <option value="fr">Frances</option>
+                <option value="it">Italiano</option>
+                <option value="pr">Portugues</option>
+            </select>
+            <!--
+                http://127.0.0.1:5500/Index.html?idioma=es#formularios
+                http://127.0.0.1:5500/Index.html?idioma=it#formularios
+
+                http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=js#formularios
+
+                http://127.0.0.1:5500/Index.html?idioma=es&lenguaje-js=js&lenguaje-py=py&lenguaje-php=php#formularios
+                http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=php&intereses=politica&intereses=ecologico#formularios
+
+            -->
+            <br><br>
+            <p>Elige tu lenguaje de programacion favorito</p>
+            <input type="radio" name="lenguaje" id="radio-js" value="js">
+            <label for="radio-js">JavaScript</label>
+            
+            <input type="radio" name="lenguaje" id="radio-py" value="py">
+            <label for="radio-py">Python</label>
+            
+            <input type="radio" name="lenguaje" checked id="radio-php" value="php">
+            <label for="radio-php">PHP</label>
+
+
+            <br><br>
+            <p>Tema de Interes</p>
+            
+            <label>
+                <input type="checkbox" name="intereses" value="deportes">
+                Deportes
+            </label>
+            
+            <label>
+                <input type="checkbox" name="intereses" value="politica">
+                Política                
+            </label>
+
+            <label>
+                <input type="checkbox" name="intereses" value="finanzas">
+                Finanzas
+            </label>
+
+            <label>
+                <input type="checkbox" name="intereses" value="salud">
+                Salud
+            </label>
+
+            <label>
+                <input type="checkbox" name="intereses" value="ecologico">
+                Ecológico
+            </label>
+
+            <br><br>
+            <input type="submit" >
+            <input type="reset" >
+        </form>
+        <br><br><br>
+        <h4>Formulario de Contacto</h4>
+        <form action="https://formsubmit.co/chovan68@gmail.com" method="post">
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre solo acepta letras y espacios en blanco" required>
+            <br>
+            <input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo invalido" required>
+            <br>
+            <textarea name="comentarios" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="submit"></input>
+        </form>
+        <p>Voy por: 06:43:00</p>
         <a href="Index.html#temario">Clic para ir al temario🔼</a>
 
 
